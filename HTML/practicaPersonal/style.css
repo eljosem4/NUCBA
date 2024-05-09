@@ -1,0 +1,63 @@
+*{
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Body */
+body{
+    background-color: black;
+    background-image:url()
+}
+#redesSociales{
+    color: whitesmoke;
+    
+}
+
+#button{
+    color: whitesmoke;
+    position: relative;
+    border-radius: 100%;
+    text-shadow: 0rem .0rem .7rem yellow ;
+}
+
+#title-1{
+    color: whitesmoke;
+    position: relative;
+    left: 40%;
+    border-radius: 1%;
+    text-shadow: 0rem .0rem .7rem rgb(255,255,0)
+}
+
+
+#contacto1{
+    position: absolute;
+    left: 75%;
+    top: 50%;
+    text-shadow: 0rem 0rem .5rem red;
+}
+
+
+#title-2{
+    color: whitesmoke;
+    text-shadow: 0rem 0rem .7rem yellow
+}
+
+#parrafos{
+    color: whitesmoke;
+    text-shadow: 0rem 0rem .7rem red;
+}
+
+#imagen-logo{
+    position:relative;
+    height: 500px;
+    left: 60%;
+    bottom: 300px;
+    border-radius: 100%;
+}
+
+#codigoQR{
+    position: relative;
+    height: 150px;
+    left: auto;
+    bottom: 150px;
+    
+  
+}
