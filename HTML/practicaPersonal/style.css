@@ -1,18 +1,23 @@
 *{
 font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
 /* Body */
 body{
     background-color: black;
-    background-image:url()
 }
 #redesSociales{
     color: whitesmoke;
+    margin: auto;
+    position: fixed;
+    left:auto;
     
 }
 
 #button{
     color: whitesmoke;
+    margin: auto;
     position: relative;
     border-radius: 100%;
     text-shadow: 0rem .0rem .7rem yellow ;
@@ -20,7 +25,8 @@ body{
 
 #title-1{
     color: whitesmoke;
-    position: relative;
+    margin: auto;
+    position:fixed;
     left: 40%;
     border-radius: 1%;
     text-shadow: 0rem .0rem .7rem rgb(255,255,0)
@@ -28,8 +34,9 @@ body{
 
 
 #contacto1{
-    position: absolute;
-    left: 75%;
+    position: fixed;
+    margin: auto;
+    left: 72%;
     top: 50%;
     text-shadow: 0rem 0rem .5rem red;
 }
@@ -37,26 +44,34 @@ body{
 
 #title-2{
     color: whitesmoke;
+    position:relative;
+    top: auto;
+    margin: auto;
     text-shadow: 0rem 0rem .7rem yellow
 }
 
 #parrafos{
     color: whitesmoke;
+    position: fixed;
+    margin: auto;
     text-shadow: 0rem 0rem .7rem red;
 }
 
 #imagen-logo{
-    position:relative;
-    height: 500px;
+    image-resolution: 250px, 100px;
+    position:fixed;
+    margin:0%;
+    height: 400px;
     left: 60%;
-    bottom: 300px;
+    bottom: 250px;
     border-radius: 100%;
 }
 
 #codigoQR{
-    position: relative;
+    position:fixed;
+    margin: auto;
     height: 150px;
-    left: auto;
+    left: 45%;
     bottom: 150px;
     
   
