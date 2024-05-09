@@ -11,7 +11,6 @@ body{
     color: whitesmoke;
     margin: auto;
     position: fixed;
-    left:auto;
     
 }
 
@@ -36,7 +35,7 @@ body{
 #contacto1{
     position: fixed;
     margin: auto;
-    left: 72%;
+    left: 70%;
     top: 50%;
     text-shadow: 0rem 0rem .5rem red;
 }
@@ -58,10 +57,10 @@ body{
 }
 
 #imagen-logo{
-    image-resolution: 250px, 100px;
     position:fixed;
-    margin:0%;
-    height: 400px;
+    width: 350px;
+    height: 100;
+    margin:auto;
     left: 60%;
     bottom: 250px;
     border-radius: 100%;
@@ -69,8 +68,9 @@ body{
 
 #codigoQR{
     position:fixed;
+    width: 4cm;
+    height: 4cm;
     margin: auto;
-    height: 150px;
     left: 45%;
     bottom: 150px;
     
