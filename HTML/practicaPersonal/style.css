@@ -6,73 +6,78 @@ font-family:Verdana, Geneva, Tahoma, sans-serif;
 /* Body */
 body{
     background-color: black;
-}
-#redesSociales{
-    color: whitesmoke;
-    margin: auto;
-    position: fixed;
-    
-}
+ }
 
-#button{
+ /*
+ .button{
     color: whitesmoke;
+    text-align: start;
     margin: auto;
-    position: relative;
     border-radius: 100%;
     text-shadow: 0rem .0rem .7rem yellow ;
 }
+*/
+
 
 #title-1{
     color: whitesmoke;
     margin: auto;
-    position:fixed;
-    left: 40%;
+    text-align: center;
     border-radius: 1%;
     text-shadow: 0rem .0rem .7rem rgb(255,255,0)
 }
 
-
-#contacto1{
-    position: fixed;
-    margin: auto;
-    left: 70%;
-    top: 50%;
-    text-shadow: 0rem 0rem .5rem red;
-}
-
-
-#title-2{
+.title-2{
     color: whitesmoke;
-    position:relative;
-    top: auto;
+    text-align: center;
     margin: auto;
     text-shadow: 0rem 0rem .7rem yellow
 }
 
-#parrafos{
+#imagen-logo{
+    display: flex;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
+
+.parrafos{
     color: whitesmoke;
-    position: fixed;
+    text-align: center;
     margin: auto;
     text-shadow: 0rem 0rem .7rem red;
 }
 
-#imagen-logo{
-    position:fixed;
-    width: 350px;
-    height: 100;
-    margin:auto;
-    left: 60%;
-    bottom: 250px;
-    border-radius: 100%;
+#contacto1{
+    text-align:center;
+    margin: auto;
+    text-shadow: red
 }
 
+
 #codigoQR{
-    position:fixed;
-    width: 4cm;
-    height: 4cm;
+    display: flex;
     margin: auto;
-    left: 45%;
-    bottom: 150px;
+    width: 1.5in;
+    height: 1.5in;
     
-  
+}
+
+#qrs{
+    display: flex;
+}
+
+
+
+#contactoH2{
+    color: whitesmoke;
+    text-shadow: 0rem 0rem .7rem yellow;
+}
+.redesSociales{
+    color: whitesmoke;
+    text-shadow: 0rem 0rem .7rem red;
+    display: block;
+    margin: auto;
+    text-align: center;
+    
 }

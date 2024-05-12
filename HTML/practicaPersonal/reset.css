@@ -15,8 +15,8 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl,
 body {
     font-family: Arial, sans-serif; /* Establecer una fuente predeterminada */
     line-height: 1.5; /* Establecer un alto de línea adecuado */
-    color: #333; /* Color de texto predeterminado */
-    background-color: #fff; /* Color de fondo predeterminado */
+    color: #ffffff; /* Color de texto predeterminado */
+    background-color: #000000; /* Color de fondo predeterminado */
 }
 
 /* Establecer estilos básicos para los elementos de lista */
